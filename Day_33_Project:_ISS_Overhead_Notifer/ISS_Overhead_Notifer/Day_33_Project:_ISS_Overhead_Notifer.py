@@ -22,9 +22,9 @@ MY_LAT = 40.974061
 MY_LONG = 29.150975
 
 #You should put you email and password directly to variables. I changed them with input fuction because I'll put my code on github to protect my mail address and pass.
-my_email = "###########################"
-password = "###########################"
-to_email = "###########################"
+my_email = input("Type your email >>>")
+password = input("Type your email's password >>>")
+to_email = input("Type the email that you want to send an email")
 
 response = requests.get(url="http://api.open-notify.org/iss-now.json")
 response.raise_for_status()
