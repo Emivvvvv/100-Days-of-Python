@@ -1,6 +1,7 @@
 import requests
 
 SHEETY_PRICES_ENDPOINT = ""
+SHEET_USERS_ENDPOINT = ""
 HEADERS = {"Authorization": "Bearer ######"}
 
 
@@ -8,6 +9,7 @@ class DataManager:
 
     def __init__(self):
         self.destination_data = {}
+        self.customer_data = {}
 
     def get_destination_data(self):
         response = requests.get(url=SHEETY_PRICES_ENDPOINT, headers=HEADERS)
@@ -27,3 +29,10 @@ class DataManager:
                 json=new_data
             )
             print(response.text)
+
+    def get_customer_emails(self):
+        customers_endpoint = SHEET_USERS_ENDPOINT
+        response = requests.get(customers_endpoint)
+        data = response.json()
+        self.customer_data = data["users"]
+        return self.customer_data
