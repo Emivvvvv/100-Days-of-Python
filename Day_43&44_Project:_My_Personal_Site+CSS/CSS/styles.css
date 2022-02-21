@@ -1,0 +1,188 @@
+/*
+I know it's terribly messy in here. but considering that this was my first time, I think it wasn't bad. If I don't forget soon, I'll make an edit here.
+*/
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    height: 100%;
+}
+h1{
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    color: #00ADB5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #00ADB5;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #00ADB5;
+}
+
+.hepsi{
+    background-image: linear-gradient(#222831, #393E46);
+}
+.top-container{
+    background-color: #00ADB5;
+    width: 100%;
+    height: 100%;
+}
+.pro{
+    text-decoration: underline;
+}
+.top-container-text1{
+    color: #393E46;
+    font-size: 1750%;
+    position: relative;
+    top: 30%;
+}
+.top-container-text2{
+    color: #393E46;
+    font-size: 7.5rem;
+    margin: 0;
+    position: relative;
+    top: 20%;
+}
+.top-container-text3{
+    color: #393E46;
+    font-size: 2.5rem;
+    position: relative;
+    top: 35%;
+
+}
+.top-a{
+    -webkit-transition: all 500ms ease;
+    color: #EEEEEE;
+}
+.top-a:hover{
+    -webkit-transition: all 500ms ease;
+    color: #222831;
+}
+.bottom-a{
+    -webkit-transition: all 500ms ease;
+    color: #EEEEEE;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.bottom-a:hover{
+    -webkit-transition: all 500ms ease;
+    color: #00ADB5;
+}
+h4{
+    color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.skills-container{
+    padding-top: 100px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.star{
+    width: 40px;
+    height: 40px;
+}
+.skill-text{
+    display: inline-block;
+    margin: 30px;
+    font-size: 2.3em;
+}
+
+
+
+
+.projects-container{
+}
+.projects{
+    -webkit-transition: all 500ms ease;
+    border:solid #EDEDED;
+    margin: 25px;
+    border-radius: 25px;
+    height: 600px;
+    width: 500px;
+    position: relative;
+    display: inline-grid;
+    margin: 75px;
+}
+.projects:hover{
+    -webkit-transition: all 500ms ease;
+    background-color: #EDEDED;
+}
+.project-text{
+    padding: 15px;
+    line-height: 2;
+    font-size: 1.7em;
+    margin-top: 0;
+}
+.project-h2{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+.alt-margin-decrase{
+    margin-bottom: 25px;
+}
+.hire-me-container{
+    padding-top: 100px;
+}
+.hire-me-text{
+    font-size: 1.3em;
+    line-height: 1;
+}
+.padding{
+    padding-top: 20px;
+}
+.margin{
+    margin: 50px;
+}
+.alt-margin{
+    margin-bottom: 50px;
+}
+.btn {
+    -webkit-transition: all 500ms ease;
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #00ADB5;
+  font-size: 20px;
+  background: #393E46;
+  padding: 10px 20px 10px 20px;
+  border: solid #EEEEEE 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+    -webkit-transition: all 500ms ease;
+  background: #EEEEEE;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+}
+
+.bottom-container{
+    background-color: #222831;
+    padding: 40px 0 20px 0;
+    margin-top: 100px;
+
+}
+.copyright{
+    margin-top: 30px;
+    font-size: 0.7em;
+}
