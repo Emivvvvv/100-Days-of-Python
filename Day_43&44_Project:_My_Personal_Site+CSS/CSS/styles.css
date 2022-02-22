@@ -2,7 +2,6 @@
 I know it's terribly messy in here. but considering that this was my first time, I think it wasn't bad. If I don't forget soon, I'll make an edit here.
 Red #DA0037
 Cyan #00ADB5
-
 */
 html{
     height: 100%;
@@ -90,7 +89,7 @@ h4{
     padding-top: 100px;
 }
 .skill-row{
-    width: 50%;
+    width: 100%;
     margin: 100px auto 100px auto;
     text-align: left;
 }
@@ -104,15 +103,9 @@ h4{
     font-size: 1.2em;
 }
 
-
-
-
-.projects-container{
-}
 .projects{
     -webkit-transition: all 500ms ease;
     border:solid #EDEDED;
-    margin: 25px;
     border-radius: 25px;
     height: 600px;
     width: 500px;
@@ -138,10 +131,12 @@ h4{
 }
 .hire-me-container{
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 .hire-me-text{
     font-size: 1.3em;
-    line-height: 1;
+    line-height: 1.5;
+    padding: 15px 20px 0 20px;
 }
 .padding{
     padding-top: 20px;
@@ -165,21 +160,175 @@ h4{
   border: solid #EEEEEE 2px;
   text-decoration: none;
 }
-
 .btn:hover {
     -webkit-transition: all 500ms ease;
   background: #EEEEEE;
   text-decoration: none;
   -webkit-transition: all 500ms ease;
 }
-
 .bottom-container{
     background-color: #222831;
     padding: 40px 0 20px 0;
     margin-top: 100px;
-
 }
 .copyright{
     margin-top: 30px;
     font-size: 0.7em;
+}
+@media only screen and (max-width: 1024px){
+    .top-container-text1{
+        font-size: 750%;
+    }
+    .top-container-text2{
+        font-size: 4rem;
+        top: 25%;
+    }
+    .top-container-text3{
+        font-size: 1.5rem;
+    }
+
+}
+@media only screen and (max-width: 760px) {
+.projects{
+        height: 550px;
+        width: 400px;
+        margin: 25px;
+    }
+    .project-text{
+        font-size: 1.5em;
+    }
+    .hire-me-text{
+        font-size: 1.2em;
+        line-height: 1.5;
+        padding: 15px 20px 0 20px;
+    }
+    .star{
+        width: 20px;
+        height: 20px;
+
+    }
+    .skill-text{
+        margin: 10px;
+        font-size: 1em;
+    }
+    .skills-container{
+        padding-top: 50px;
+    }
+    .skill-row{
+        margin: 50px 0 50px 0;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .top-container-text1{
+        font-size: 500%;
+         top: 35%;
+    }
+    .top-container-text2{
+        font-size: 2.5rem;
+        top: 31%;
+    }
+    .top-container-text3{
+        font-size: 1rem;
+    }
+    .projects{
+        height: 350px;
+        width: 300px;
+        margin: 25px;
+    }
+    .project-h2{
+        font-size: 1.5em;
+    }
+    .project-text{
+        font-size: 1em;
+    }
+    .bottom-a{
+        font-size: 0.7em;
+    }
+    .bottom-container{
+        padding-top: 20px;
+        margin-top: 50px;
+    }
+    .hire-me-text{
+        font-size: 1em;
+        line-height: 1.5;
+    }
+    .other-h1s{
+        font-size: 300%;
+    }
+    .projects-h2{
+        font-size: 150%;
+    }
+    .hire-me-container{
+        padding-top: 30px;
+    }
+    .star{
+        width: 10px;
+        height: 10px;
+    }
+    .skill-text{
+        margin: 10px;
+        font-size: 0.8em;
+    }
+    .skills-container{
+        padding-top: 50px;
+    }
+    .skill-row{
+        margin: 50px 0 50px 0;
+    }
+}
+@media only screen and (max-width: 425px){
+
+    .star{
+        width: 10px;
+        height: 10px;
+}
+    .projects-h2{
+        font-size: 125%;
+    }
+.skill-text{
+        margin: 10px;
+        font-size: 0.15em;
+    }
+    .skills-container{
+        padding-top: 50px;
+    }
+    .skill-row{
+        margin: 50px 0 50px 0;
+    }
+    .hire-me-text{
+        font-size: 0.9em;
+        line-height: 1.4;
+    }
+    .top-container-text1{
+        font-size: 300%;
+         top: 35%;
+    }
+    .top-container-text2{
+        font-size: 2rem;
+        top: 31%;
+    }
+    .top-container-text3{
+        font-size: 0.8rem;
+    }
+    .projects{
+        height: 300px;
+        width: 250px;
+        margin: 25px;
+    }
+    .project-text{
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 380px){
+    .skill-row{
+        margin: 25px 0 25px 0;
+    }
+        .star{
+        width: 9px;
+        height: 9px;
+}
+.skill-text{
+        margin: 5px;
+        font-size: 0.15em;
+    }
 }
