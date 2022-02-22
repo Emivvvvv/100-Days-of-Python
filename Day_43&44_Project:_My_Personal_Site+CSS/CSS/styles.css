@@ -304,8 +304,8 @@ h4{
          top: 35%;
     }
     .top-container-text2{
-        font-size: 2rem;
-        top: 31%;
+        font-size: 1.5rem;
+        top: 32.5%;
     }
     .top-container-text3{
         font-size: 0.8rem;
@@ -331,4 +331,7 @@ h4{
         margin: 5px;
         font-size: 0.15em;
     }
+.bottom-a{
+    font-size: 0.5em;
+}
 }
