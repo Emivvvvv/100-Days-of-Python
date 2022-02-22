@@ -279,11 +279,11 @@ h4{
 @media only screen and (max-width: 425px){
 
     .star{
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
 }
     .projects-h2{
-        font-size: 125%;
+        font-size: 140%;
     }
 .skill-text{
         margin: 10px;
